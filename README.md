@@ -1,11 +1,11 @@
-# ServerElixir
+# Simple Web Server Elixir
 
-**TODO: Add description**
+## RUN
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `server_elixir` to your list of dependencies in `mix.exs`:
+Run terminal `iex -S mix` 
+
+iex (1)> `{:ok, _pid} = Plug.Cowboy.http(ServerElixir.WebServer,[])`
 
 ```elixir
 def deps do
